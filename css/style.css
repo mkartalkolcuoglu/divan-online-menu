@@ -1,0 +1,31 @@
+html,body {
+    color: #222222;
+    background: #dddfe0;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.btn:focus,
+.form-control:focus {
+    box-shadow: none;
+}
+
+.container-fluid {
+    max-width: 1366px;
+}
+
+.logo {margin-top: 30px;}
+.logo img {}
+.urun { border-left: 4px solid #4aaf46; text-overflow: clip;word-wrap: break-word; }
+.urun p {margin: 0;padding-top: 10px;font-weight: 800;}
+.urun img {width: 35px;
+    position: relative;
+    padding-left: 5px;
+}
+.urun span {font-size: 12px;position: relative;top: -6px;}
+.kategori {display: block;font-size: 28px;text-anchor: end;width: 100px;text-overflow: clip;word-wrap: break-word;color: #5ab456;font-weight: bold;text-align: right;}
+.kategori h2 {color:#4aaf46;font-weight: 800;font-size: 1.9rem;}
+.urun:last-child {padding-bottom:30px;}
+
+.ust-menuler {text-align: center; margin-bottom:50px;}
+.ust-menuler a {padding: 10px 7px; border:1px solid rgb(117, 117, 117); margin:2px; color:#222;}
